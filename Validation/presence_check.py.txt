@@ -1,0 +1,8 @@
+present=False
+while not(present):
+    ans=input("Please enter username:" )
+    if len(ans) >0:
+        present=True
+        print("Thank you for entering your username")
+    else:
+        print("You must enter a username")
